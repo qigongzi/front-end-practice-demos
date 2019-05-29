@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>h5唤起客户端</title>
+    <script src="http://aikanvod.miguvideo.com/video/p/content/repository/ues/js/s300/jquery2.js"></script>
+    <script type="text/javascript" src="http://aikanvod.miguvideo.com/video/p/content/repository/ues/js/s300/ZJSTJsBridge.js"></script>
+    <script src="http://aikanvod.miguvideo.com/video/p/content/repository/ues/js/s300/zjversion.js"></script>
+    <script type="text/javascript" src="http://aikanvod.miguvideo.com/video/p/content/repository/ues/js/s300/PBSTool.js"></script>
     <style>
     a,div,input(selector) {-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color : transparent ;}
         input{
@@ -27,8 +31,7 @@
     
     function open(){
     console.log("aaaaaa")
-                var src = "miguaikanapp://splash?srcch=04_29___&psrcch=04_29_share_480110_0&spage=share&vodcode=636656825&vodid=53779220";
-                window.location.href=src;
+                 window.PBSTool.openApp("","miguaikanapp://splash?srcch=10000003&linkUrl=http://aikanvod.miguvideo.com/video/p/AC_akVipPrivileged.jsp");
     }
         var browser = {
 
